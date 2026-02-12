@@ -91,11 +91,11 @@ p.lign{
 
 /*Section Navigation*/
 audio{
-    margin-left: 100%;
-
+    margin-left: 10%;
 }
 video{
-    margin-left: 50%;
+    width: 60%;
+    margin-left: 40%;
 }
 
 /*formulaire*/
