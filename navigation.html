@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Navigation</title>
 </head>
 <body>
-    <h1 align="center">About Us</h1> 
-    <a href="https://akdital.ma/" target="_blank" rel="noopener noreferrer"><h4 align="center">Notre Site Officiel</h4></a>
-    <p align="center">
+    <header class="header">
+        <div class="logo">
+            <a href="https://akdital.ma/" target="_blank" rel="noopener noreferrer">
+                <img src="images/Logo1.png" alt="paysage" class="logo">
+            </a>
+        </div>
+        <nav class="menu">
+            <div>
+                <a href="navigation.html">About Us</a>
+                <a href="formulaire.html">Rendez-vous</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav><br>
+    </header>
+    <!--section about us-->
+    <section>
+        <h1 >About Us</h1> 
+    <p>
         Akdital est un groupe marocain de cliniques privées fondé en 2011 par Rochdi Talib et Fatima Akdim. Il adopte en 2018 la dénomination « Akdital », formée à partir des noms de ses fondateurs.
         À la suite de la libéralisation du secteur des cliniques privées au Maroc, le groupe amorce une phase d’expansion et ouvre plusieurs établissements dans le pays. Akdital est introduit en bourse le 14 décembre 2022 à la Bourse de Casablanca.
         Le groupe est fondé en 2011 par Rochdi Talib, un médecin et homme d'affaires casablancais.
@@ -18,29 +34,32 @@
         À la suite du discours du trône du 29 juillet 2020, appelant à généraliser la couverture médicale des Marocains, le groupe Akdital souhaite recevoir un soutien financier de l'État marocain[7].
         Fin 2022, le groupe annonce vouloir s'introduire en bourse avec le soutien des banques d'affaires BMCE Capital et CFG Bank [8],[9]. L'introduction en bourse est réalisée le 14 décembre 2022
     </p>
-    <img src="images/Logo1.png" >
+    <img src="images/Logo1.png"  >
     <br> 
     <table>
         <tr>
-            <td align="center">
-                <audio controls loop >
-                    <source src="Media/audio_akdital.mp3" type="audio/mp3">
+            <td>
+                <audio controls loop>
+                    <source src="media/audio_akdital.mp3" type="audio/mp3">
                 </audio>
             </td>
-        </tr>
-        <tr>
-            <td  align="center">
-                <video poster="images/poster.jpg" width="80%" controls muted loop>
-                    <source src="Media/video_akdital  - Trim.mp4">
+            <td>
+                <video poster="images/poster.jpg" controls muted loop>
+                    <source src="media/video_akdital  - Trim.mp4">
                 </video>
             </td>
         </tr>
     </table>
-    <a href="index.html"><h3 align="center">Retour</h3></a>
+    </section><br>
+    <a href="index.html"><button type="submit">Retour</button></a>
     
 <br>
 <br>
 <br>      
-
+    <footer class="footer">
+        _________________________________________________________________________________
+        <p> AKDITAL International Medical Center</p>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
 </body>
 </html>
